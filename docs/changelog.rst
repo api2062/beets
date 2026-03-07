@@ -46,6 +46,9 @@ For plugin developers
 - :py:func:`beets.metadata_plugins.album_for_id` and
   :py:func:`beets.metadata_plugins.track_for_id` now require a ``data_source``
   argument and query only that provider.
+- The ``tunelog`` logging helper that was exclusively available to the lastgenre
+  plugin is now usable througout beets and was renamed to ``extra_debug``.
+  Import it from the ``beets.logging`` module to use it.
 
 Other changes
 ~~~~~~~~~~~~~
