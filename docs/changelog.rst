@@ -39,6 +39,11 @@ Bug fixes
   :bug:`6316`
 - :doc:`plugins/beatport`: Use ``va_name`` config for the album artist on VA
   releases instead of hardcoded "Various Artists". :bug:`6316`
+- :doc:`plugins/lastimport`: Rename flexible field ``play_count`` to
+  ``lastfm_play_count`` to avoid conflicts with :doc:`plugins/mpdstats`.
+  **Migration**: This cannot be migrated automatically because of the field
+  clash. If you use ``lastimport`` without ``mpdstats``, migrate manually with
+  ``beet modify lastfm_play_count='$play_count'``.
 
 For plugin developers
 ~~~~~~~~~~~~~~~~~~~~~
