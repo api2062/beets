@@ -167,3 +167,5 @@ ae3a2e5729e3c0a5acbd8967ba2f11f4c53acd09
 192217da5d70621089b06b06fff3dbcbeb4c0c4d
 # Add a changelog note
 b3f558584910ab4fc6aa185ec4a4c8554001ba24
+# lastgenre: Move fetching to client module
+b4beee8ff3754b001e7504c05a2b838bfa689022
